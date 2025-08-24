@@ -52,7 +52,7 @@ const Navbar = () => {
         }`}
       >
         <div className="flex items-center justify-between mx-auto 2xl:max-w-[1440px] xl:max-w-[1300px] px-6 lg:px-20 3xl:px-0">
-          <Link href={`/}`}>
+          <Link href={`/`}>
             <Image
               src={"/logo.png"}
               alt="logo"
@@ -113,14 +113,16 @@ const Navbar = () => {
         }`}
       >
         <div className="flex items-center justify-between p-4 border-b">
-          <Image
-            src="/dinamo-transparent.webp"
-            alt="logo"
-            width={74}
-            height={29}
-            className="w-20 h-auto"
-            priority
-          />
+          <Link href={`/`}>
+            <Image
+              src={"/logo.png"}
+              alt="logo"
+              width={74}
+              height={29}
+              className="w-20 h-auto"
+              priority
+            />
+          </Link>
           <button onClick={() => setIsOpen(false)}>
             <Image
               src="/close.svg"

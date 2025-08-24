@@ -29,30 +29,48 @@ const Hero = () => {
         <div className="flex justify-start mt-4 space-x-4">
           <a
             href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Facebook page"
             className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
           >
-            <Facebook size={24} color="white" />
+            <Facebook size={24} color="white" aria-hidden="true" />
           </a>
           <a
             href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Instagram page"
             className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
           >
-            <Instagram size={24} color="white" />
+            <Instagram size={24} color="white" aria-hidden="true" />
           </a>
           <a
             href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our YouTube channel"
             className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
           >
-            <Youtube size={24} color="white" />
+            <Youtube size={24} color="white" aria-hidden="true" />
           </a>
           <a
             href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our LinkedIn profile"
             className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
           >
-            <Linkedin size={24} />
+            <Linkedin size={24} color="white" aria-hidden="true"  />
           </a>
-          {/* <a href="https://vimeo.com">
-            <Vimeo size={24} color="white" />
+          {/* <a 
+            href="https://vimeo.com" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Vimeo page"
+            className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
+          >
+            <Vimeo size={24} color="white" aria-hidden="true" />
           </a> */}
         </div>
       </div>
