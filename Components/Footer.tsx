@@ -17,33 +17,37 @@ const Footer = () => {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center p-2 bg-white text-black rounded-full"
+                aria-label="Visit our Facebook page"
+                className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
               >
-                <Facebook className="w-6 h-6" />
+                <Facebook size={24} color="white" aria-hidden="true" />
               </a>
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center p-2 bg-white text-black rounded-full"
+                aria-label="Visit our Instagram page"
+                className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
               >
-                <Instagram className="w-6 h-6" />
+                <Instagram size={24} color="white" aria-hidden="true" />
               </a>
               <a
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center p-2 bg-white text-black rounded-full"
+                aria-label="Visit our YouTube channel"
+                className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
               >
-                <Youtube className="w-6 h-6" />
+                <Youtube size={24} color="white" aria-hidden="true" />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center p-2 bg-white text-black rounded-full"
+                aria-label="Visit our LinkedIn profile"
+                className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"
               >
-                <Linkedin className="w-6 h-6" />
+                <Linkedin size={24} color="white" aria-hidden="true" />
               </a>
             </div>
             <p className="text-center text-sm mt-1">
