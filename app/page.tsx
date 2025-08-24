@@ -9,7 +9,8 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Home | Shero",
-  description: "Discover Shero, a Motion Graphic Designer and Visual Effects Specialist crafting professional, visually stunning, and technically precise motion graphics and VFX. My work blends clarity, simplicity, and creativity to deliver captivating multi-style videos that engage audiences and elevate brands."
+  description:
+    "Discover Shero, a Motion Graphic Designer and Visual Effects Specialist crafting professional, visually stunning, and technically precise motion graphics and VFX. My work blends clarity, simplicity, and creativity to deliver captivating multi-style videos that engage audiences and elevate brands.",
 };
 
 export default function Home() {
@@ -18,8 +19,10 @@ export default function Home() {
       <Image
         src="/home.jpg"
         alt="Work Background"
-        fill
         priority
+        quality={80}
+        fill
+        sizes="100vw"
         className="object-cover md:object-[center_9%] object-[60%_center] -z-10"
       />
 
